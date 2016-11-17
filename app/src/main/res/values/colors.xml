@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#46b8ff</color>
+    <color name="colorPrimaryDark">#46b8ff</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="primary_bad">#FB4E4E</color>
+    <color name="primary_bad_d">#FA2727</color>
+    <color name="primary_bad_a">#FF0000</color>
+    <color name="primary_normal">#FCEF5B</color>
+    <color name="primary_normal_d">#CDBC01</color>
+    <color name="primary_normal_a">#FFEB00</color>
+    <color name="primary_good">#6FD7FF</color>
+    <color name="primary_good_d">#38B5E7</color>
+    <color name="primary_good_a">#1E9BCD</color>
+    <color name="primary_text">#000000</color>
+    <color name="secondary_text">#FFFFFF</color>
+</resources>
