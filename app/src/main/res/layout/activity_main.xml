@@ -51,24 +51,45 @@
         android:id="@+id/txt_info"
         android:layout_weight="0.75" />
 
-    <LinearLayout
+    <RelativeLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <Button
-            android:text="Button"
-            android:layout_width="wrap_content"
+            android:text="국민행동요령"
             android:layout_height="wrap_content"
-            android:id="@+id/button2"
-            android:layout_weight="1" />
+            android:id="@+id/btn_howto"
+            android:layout_weight="0.82"
+            android:visibility="gone"
+            android:onClick="OnClickHowTo"
+            android:elevation="10dp"
+            android:translationZ="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="150dp"
+            android:background="@color/colorPrimary"
+            android:stateListAnimator="@null"
+            style="@style/Widget.AppCompat.Button" />
 
         <Button
-            android:text="Button"
-            android:layout_width="wrap_content"
+            android:text="상세 측정정보"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button"
-            android:layout_weight="1" />
-    </LinearLayout>
+            android:id="@+id/btn_detail"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:onClick="OnClickDetail"
+            android:elevation="10dp"
+            android:translationZ="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/colorPrimary"
+            android:stateListAnimator="@null"
+            style="@style/Widget.AppCompat.Button" />
+
+    </RelativeLayout>
 
 </LinearLayout>

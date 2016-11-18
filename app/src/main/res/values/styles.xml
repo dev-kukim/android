@@ -8,25 +8,5 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.Bad" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/primary_bad</item>
-        <item name="colorPrimaryDark">@color/primary_bad_d</item>
-        <item name="colorAccent">@color/primary_bad_a</item>
-    </style>
-
-    <style name="AppTheme.Normal" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/primary_normal</item>
-        <item name="colorPrimaryDark">@color/primary_normal_d</item>
-        <item name="colorAccent">@color/primary_normal_a</item>
-    </style>
-
-    <style name="AppTheme.Good" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/primary_good</item>
-        <item name="colorPrimaryDark">@color/primary_good_d</item>
-        <item name="colorAccent">@color/primary_good_a</item>
-    </style>
 
 </resources>

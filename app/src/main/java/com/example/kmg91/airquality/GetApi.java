@@ -130,9 +130,6 @@ public class GetApi {
 
                     // event type : 2 (태그의 끝)
                     else if (eventType == XmlPullParser.END_TAG) {
-                       // tagName = parser.getName();
-
-                        //if (tagName.equals("row") || tagName.equals("RESULT"))
                             isItemTag = false;
                     }
                     eventType = parser.next();  // evt 4
